@@ -1,62 +1,23 @@
-# CHOW Matrix
+[README.md]
 
-[![Download Latest](https://img.shields.io/badge/download-latest-blue.svg)](https://github.com/Chowdhury-DSP/ChowMatrix/releases/latest)
-![CI](https://github.com/Chowdhury-DSP/ChowMatrix/workflows/CI/badge.svg)
-[![License](https://img.shields.io/badge/License-BSD-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![Downloads](https://img.shields.io/github/downloads/Chowdhury-DSP/ChowMatrix/total)](https://somsubhra.github.io/github-release-stats/?username=Chowdhury-DSP&repository=ChowMatrix&page=1&per_page=30)
+# Chow-Matrix
 
-CHOW Matrix is a delay effect, made up of an infinitely growable
-tree of delay lines, each with individual controls for feedback,
-panning, distortion, and more. ChowMatrix is available as a VST,
-VST3, AU, LV2, AUv3, AAX, and Standalone Application.
+<p align="center">
+  <a href="https://github.com/whisprer/chow-matrix/releases"> 
+    <img src="https://img.shields.io/github/v/release/whisprer/chow-matrix?color=4CAF50&label=release" alt="Release Version"> 
+  </a>
+  <a href="https://github.com/whisprer/chow-matrix/actions"> 
+    <img src="https://img.shields.io/github/actions/workflow/status/whisprer/chow-matrix/lint-and-plot.yml?label=build" alt="Build Status"> 
+  </a>
+</p>
 
+![Commits](https://img.shields.io/github/commit-activity/m/whisprer/chow-matrix?label=commits) 
+![Last Commit](https://img.shields.io/github/last-commit/whisprer/chow-matrix) 
+![Issues](https://img.shields.io/github/issues/whisprer/chow-matrix) 
+[![Version](https://img.shields.io/badge/version-3.1.1-blue.svg)](https://github.com/whisprer/chow-matrix) 
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey.svg)](https://www.microsoft.com/windows)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-### Quick Links
-- [Latest Release](https://chowdsp.com/products.html#matrix)
-- [ChowMatrix for iOS](https://apps.apple.com/us/app/chowmatrix/id1598726146)
-- [Nightly Builds](https://chowdsp.com/nightly.html#matrix)
-- [User Manual](https://ccrma.stanford.edu/~jatin/chowdsp/Products/ChowMatrixManual.pdf)
-
-<img src="./manual/screenshots/full_gui.png" alt="Pic" height="400">
-
-
-## Installing
-
-To download the latest release, visit the
-[official website](https://chowdsp.com/products.html#matrix).
-If you would like to try the most recent builds (potentially
-unstable) check out the
-[nightly builds](https://chowdsp.com/nightly.html#matrix).
-
-
-## Building
-
-To build from source, you must have CMake installed.
-
-```bash
-# Clone the repository
-$ git clone https://github.com/Chowdhury-DSP/ChowMatrix.git
-$ cd ChowMatrix
-
-# initialize and set up submodules
-$ git submodule update --init --recursive
-
-# build with CMake
-$ cmake -Bbuild
-$ cmake --build build --config Release
-```
-The built plugins will be located in `ChowMatrix/build/ChowMatrix_artefacts/`
-
-
-## Credits
-
-- GUI Design - [Margus Mets](mailto:hello@mmcreative.eu)
-- GUI Framework - [Plugin GUI Magic](https://github.com/ffAudio/PluginGUIMagic)
-- Dilogarithm function - [Polylogarithm](https://github.com/Expander/polylogarithm)
-- Extra Icons - [FontAwesome](https://fontawesome.com/)
-
-
-## License
-
-ChowMatrix is open source, and is licensed under the BSD 3-clause license.
-Enjoy!
+<p align="center">
+  <img src="chow-matrix-banner.png" width="850" alt="Chow-Matrix Banner">
